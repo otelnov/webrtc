@@ -26,7 +26,7 @@
     "jquery": "1.11.1",
     "font-awesome": "4.1.0",
     "bootstrap-social": "*",
-    "underscore": "1.6.0"
-
+    "underscore": "1.6.0",
+    "socket.io": "*"
   }
 }

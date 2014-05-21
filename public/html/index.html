@@ -1,4 +1,18 @@
 <div class="container">
-hello
+  <h1>Chat</h1>
+
+  <div class="row">
+    <div class="chat">
+      <p ng-repeat="msg in mess track by $index">{{msg}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <form ng-submit="sendMess()">
+        <input class="form-control" type="text" ng-model="mess.text" />
+      </form>
+    </div>
+  </div>
 
 </div>

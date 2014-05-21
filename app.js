@@ -20,4 +20,4 @@ var server = app.listen(port, function(){
 });
 
 // init controllers
-require('./controllers')(app);
+require('./controllers')(app,server);
