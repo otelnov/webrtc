@@ -1,0 +1,32 @@
+{
+  "name": "webrtc",
+  "version": "0.0.1",
+  "authors": [
+    "Oleksandr Telnov <mail@telnov.com>"
+  ],
+  "description": "webrtc app",
+  "main": "app.js",
+  "keywords": [
+    "webrtc"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "0.11.0",
+    "bootstrap": "3.1.1",
+    "angular": "~1.2.16",
+    "angular-resource": "~1.2.16",
+    "angular-route": "~1.2.16",
+    "angular-touch": "~1.2.16",
+    "jquery": "1.11.1",
+    "font-awesome": "4.1.0",
+    "bootstrap-social": "*",
+    "underscore": "1.6.0"
+
+  }
+}

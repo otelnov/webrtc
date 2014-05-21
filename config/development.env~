@@ -1,0 +1,11 @@
+module.exports = {
+  NODE_ENV: 'development',
+
+  MONGODB_URL: 'mongodb://localhost/jsetest',
+  SESSION_SECRET: 'nBGFpcXp/FRhKAiXfuj1SLIljTE=',
+
+  // Google data
+  GOOGLE_CLIENT_ID: '758334499653-c8a7gojqd4mhgjqvjfda8m5vai1gmv82.apps.googleusercontent.com',
+  GOOGLE_CLIENT_SECRET: '_CklQ3Ag2d2x6lH-wQw1SOqW',
+  GOOGLE_CALLBACK_URL: 'http://localhost:3322/auth/google/callback'
+};

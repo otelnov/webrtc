@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WebRTC</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" media="all"/>
+  <link rel="stylesheet" href="css/main.css" media="all"/>
+  <!-- End Stylesheets -->
+
+  <!-- Libraries -->
+  <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-resource/angular-resource.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-touch/angular-touch.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script type="text/javascript" src="../bower_components/underscore/underscore.js"></script>
+  <!-- End Libraries -->
+
+  <!-- Application -->
+  <script type="text/javascript" src="js/app.js"></script>
+  <!-- End Application -->
+
+  <!-- Controllers -->
+  <script type="text/javascript" src="js/controllers/header/headerController.js"></script>
+
+  <script type="text/javascript" src="js/controllers/user/userController.js"></script>
+  <script type="text/javascript" src="js/controllers/user/userService.js"></script>
+
+  <script type="text/javascript" src="js/controllers/index/indexController.js"></script>
+  <script type="text/javascript" src="js/controllers/index/indexService.js"></script>
+  <!-- End Controllers -->
+
+  <!-- Services -->
+  <script type="text/javascript" src="js/services/navigationService.js"></script>
+  <script type="text/javascript" src="js/services/functionsService.js"></script>
+  <!-- End Services -->
+
+  <!-- Directives -->
+  <script type="text/javascript" src="js/directives/click.js"></script>
+  <!-- End Directives -->
+
+</head>
+<body ng-app="webrtc">
+
+  <div ng-include="'html/header.html'"></div>
+
+  <div ng-view>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <p class="pull-right">webrtc</p>
+    </div>
+  </footer>
+
+</body>
+</html>

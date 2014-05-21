@@ -1,0 +1,33 @@
+var _ = require('underscore');
+
+module.exports = function (app) {
+  'use strict';
+
+  var config = {
+    HOSTNAME: process.env.HOSTNAME,
+    PORT: process.env.PORT,
+
+    NODE_ENV: process.env.NODE_ENV || 'do',
+    LOG_LEVEL: process.env.LOG_LEVEL,
+
+    MONGODB_URL: process.env.MONGODB_URL,
+    SESSION_SECRET: process.env.SESSION_SECRET,
+    SOCKET_IO_LOG_LEVEL: process.env.SOCKET_IO_LOG_LEVEL,
+
+    // Google data
+    GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
+    GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_ID,
+    GOOGLE_CALLBACK_URL: process.env.GOOGLE_CALLBACK_URL,
+    GOOGLE_SCOPE: ['https://www.googleapis.com/auth/userinfo.profile', 'https://www.googleapis.com/auth/userinfo.email']
+  };
+
+  if (config.NODE_ENV){
+    try{
+      var defaults = require('./' + config.NODE_ENV + '.env');
+      _.defaults(config, defaults);
+    }
+    catch (e){}
+  }
+
+  app.set('config', config);
+};
