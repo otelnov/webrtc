@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6aa51b0-6860-4fac-b369-07e67ab9b649" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webrtc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="540" selection-end="540" vertical-scroll-proportion="0.4385382" vertical-offset="0" max-vertical-offset="903">
+            <state line="19" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.37873754" vertical-offset="0" max-vertical-offset="903">
               <folding />
             </state>
           </provider>
@@ -822,7 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="540" selection-end="540" vertical-scroll-proportion="0.4385382" vertical-offset="0" max-vertical-offset="903">
+        <state line="19" column="20" selection-start="484" selection-end="484" vertical-scroll-proportion="0.37873754" vertical-offset="0" max-vertical-offset="903">
           <folding />
         </state>
       </provider>
