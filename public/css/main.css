@@ -45,3 +45,7 @@ footer {
     overflow: auto;
     padding: 5px;
 }
+
+#otherClients button{display: block;}
+
+#selfVideo, #callerVideo{width: 100%;}
