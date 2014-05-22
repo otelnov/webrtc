@@ -11,10 +11,10 @@ angular.module('webrtc.controllers')
         $scope.mess.text = '';
       }
 
-      socket.on('get mess', function(data){
-        $scope.mess.push(data);
-        $scope.$digest();
-      })
+//      socket.on('get mess', function(data){
+//        $scope.mess.push(data);
+//        $scope.$digest();
+//      })
 
 
     }
