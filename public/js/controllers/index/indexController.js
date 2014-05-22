@@ -16,7 +16,6 @@ angular.module('webrtc.controllers')
         $scope.$digest();
       })
 
-
       connect();
 
       var selfEasyrtcid = "";

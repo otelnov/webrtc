@@ -22,8 +22,7 @@ var server = app.listen(port, function(){
 var io = require('socket.io').listen(server);
 var easyrtc = require("easyrtc");
 app.set('io', io);
-//app.set('easyrtc', easyrtc);
-var easyrtcServer = easyrtc.listen(app, io);
+easyrtc.listen(app, io);
 
 // init controllers
 require('./controllers')(app,server);
