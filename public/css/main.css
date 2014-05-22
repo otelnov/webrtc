@@ -40,6 +40,8 @@ footer {
 
 
 .chat{
-    max-width: 300px;
-    overflow: hidden;
+    max-height: 250px;
+    width: 500px;
+    overflow: auto;
+    padding: 5px;
 }

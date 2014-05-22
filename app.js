@@ -19,5 +19,10 @@ var server = app.listen(port, function(){
   console.log("\nExpress server listening on port %d in %s mode", port, app.settings.env);
 });
 
+var io = require('socket.io').listen(server);
+var easyrtc = require("easyrtc");
+app.set('io', io);
+var easyrtcServer = easyrtc.listen(app, io);
+
 // init controllers
 require('./controllers')(app,server);
